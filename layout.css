@@ -1,107 +1,83 @@
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
-@media (min-width: 640px) { body {font-size:1rem;} } 
-@media (min-width:960px) { body {font-size:1.2rem;} } 
-@media (min-width:1100px) { body {font-size:1.5rem;} } 
 .ferrari{
 position: fixed;
-top: 580px;
-left: 100px;
+top: 65%;
+left: 5%;
 }
 .lambo{
 position: fixed;
-top: 575px;
-left: 900px;
+top: 65%;
+left: 54%;
 }
 .aston{
 position: fixed;
-top: 380px;
-left: 100px;
+top: 43%;
+left: 5%;
 }
 .Bugatti{
 position: fixed;
-top: 380px;
-left: 1200px;
+top: 43%;
+left: 74%;
 }
 .audi{
 position: fixed;
-top: 360px;
-left: 365px;
+top: 43%;
+left: 22%;
 }
 .bently{
 position: fixed;
-top: 340px;
-left: 665px;
+top: 39%;
+left: 36%;
 }
 .bmw{
 position: fixed;
-top: 370px;
-left: 965px;
+top: 43%;
+left: 59%;
 }
 .chevrolet{
 position: fixed;
-top: 370px;
-left: 1400px;
+top: 43%;
+left: 90%;
 }
 .fiat{
 position: fixed;
-top: 575px;
-left: 400px;
+top: 65%;
+left: 24%;
 }
 .ford{
 position: fixed;
-top: 575px;
-left: 665px;
+top: 65%;
+left: 39%;
 }
 .landrover{
 position: fixed;
-top: 565px;
-left: 1145px;
+top: 65%;
+left: 70%;
 }
 .mclaren{
 position: fixed;
-top: 575px;
-left: 1400px;
+top: 65%;
+left: 85%;
 }
 .mercedes{
 position: fixed;
-top: 750px;
-left: 50px;
+top: 84%;
+left: 2%;
 }
 .mini{
 position: fixed;
-top: 750px;
-left: 340px;
+top: 84%;
+left: 20%;
 }
 .nissan{
 position: fixed;
-top: 750px;
-left: 700px;
+top: 84%;
+left: 38%;
 }
 .pagani{
 position: fixed;
-top: 700px;
-left: 800px;
+top: 80%;
+left: 47%;
 }
 .grey{
 position: fixed;
@@ -109,65 +85,48 @@ top: 340px;
 }
 .renault{
 position: fixed;
-top: 750px;
-left: 1200px;
+top: 84%;
+left: 72%;
 }
 .tesla{
 position: fixed;
-top: 750px;
-left: 1450px;
+top: 84%;
+left: 85%;
 }
 .arrow{
 position: fixed;
-top: 840px;
-left: 900px;
+top: 93.5%;
+left: 60%;
 }
 .toyota{
 position: fixed;
-top: 380px;
-left: 40px;
+top: 42%;
+left: 2%;
 }
 .volkswagen{
 position: fixed;
-top: 350px;
-left: 250px;
+top: 41%;
+left: 20%;
 }
 .volvo{
 position: fixed;
-top: 350px;
-left: 590px;
+top: 43%;
+left: 40%;
 }
 .previous{
 position: fixed;
-top: 840px;
-left: 900px;
+top: 93.5%;
+left: 60%;
 }
 .logo{
 position: fixed;
-top: -250px;
-left: 400px;
+top:  -10%;
+left: 25%;
 }
 .welcome{
 position= absolute;
 top: 250px;
 left: 400px;
-}
-.video-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
-}
-
-.video-container iframe,  
-.video-container object,  
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
 }
 
 
